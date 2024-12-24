@@ -20,7 +20,7 @@ i=0
 for l in  lst:
     if l[1] > result: # l[0]-> [2,3] 일때 2 임 
         result=l[1] # 전보다 높이가 높을때(값이 클때) 업데이트됌  이때 result는 가장 큰 높이가 더해짐
-        idx=i
+        idx=i # i값을 통해 가장 높은 위치를 알 수 있음
     i +=1 # i는 가장 높은 높이 위치를 찾게됨 ex) n 번쨰가 제일 높음
 print(idx)
 print("1번",result)
